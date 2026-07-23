@@ -1,7 +1,19 @@
 aid: arcstone
 name: Arcstone
-description: Arcstone is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Arcstone is a Singapore-based digital manufacturing technology company (founded
+  2013) that helps enterprises digitalize and gain real-time transparency across
+  their shop floors and supply chains. Its product family spans arc.essentials (a
+  lightweight Manufacturing Execution System for SMEs), arc.ops (a modular,
+  next-generation MES for large enterprises), arc.net (multi-tier supply chain
+  visibility), arc.studio (a low-code enterprise app and integration platform),
+  arc.green (sustainability tracking), and arc.ai (an AI control tower for managed
+  AI workforce deployment). Arcstone serves precision engineering, FMCG, mining,
+  semiconductor, plastics, and biomedical manufacturers, and was named a Gartner
+  Cool Vendor in Manufacturing Operations in 2022. The company is backed by 500
+  Global. No public API, developer portal, or SDKs are published at this time; this
+  profile carries the identity and infrastructure signals harvested by the API
+  Evangelist enrichment pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/arcstone/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Manufacturing
+- Manufacturing Execution System
+- Supply Chain
+- Industrial IoT
+- Digital Manufacturing
+- Sustainability
+image: https://static.wixstatic.com/media/8900c2_122ac1ac366743e6b1fe94d079f5f756~mv2.png/v1/fill/w_914,h_858,al_c/8900c2_122ac1ac366743e6b1fe94d079f5f756~mv2.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,14 @@ maintainers:
 common:
 - type: Website
   url: https://arcstone.co
+- type: Blog
+  url: https://www.arcstone.co/blog
+- type: BlogRSS
+  url: https://www.arcstone.co/blog-feed.xml
+- type: DomainSecurity
+  url: security/arcstone-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
